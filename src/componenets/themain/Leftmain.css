@@ -1,6 +1,6 @@
 .left-conatiner {
-  width: 100%;
-
+  /* width: 100%; */
+  overflow: hidden;
   /* margin: 54px 0 20px 80px; */
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
   font-size: 14px;
   line-height: 16px;
   color: #17183b;
-  margin-top: 34px;
+  margin-top: 15px;
 }
 .back-to h5 span {
   color: #a2a3b1;
@@ -24,7 +24,7 @@
   font-weight: 700;
   font-size: 44px;
   line-height: 56px;
-  margin-top: 76px;
+  /* margin-top: 76px; */
   color: #17183b;
 }
 .prd-price {
@@ -47,7 +47,8 @@
   line-height: 24px;
 }
 .product-desc {
-  margin-top: calc(445px - 394px);
+  /* margin-top: calc(445px - 394px); */
+  margin-top: 20px;
   font-family: Poppins;
   font-weight: 400;
   font-size: 16px;
@@ -57,7 +58,8 @@
 .color {
   display: flex;
   justify-content: flex-start;
-  margin-top: 32px;
+  /* margin-top: 32px; */
+  margin-top: 15px;
   gap: 16px;
 }
 .color .ellipse1 {
@@ -121,7 +123,8 @@
   color: #17183b;
 }
 .whishes {
-  margin-top: 55px;
+  /* margin-top: 55px; */
+  margin-top: 25px;
   display: flex;
   justify-content: space-between;
 }
